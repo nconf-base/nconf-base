@@ -1,8 +1,8 @@
 nconf-base 
 ==========
+[![NPM version](https://badge.fury.io/js/nconf-base.png)](http://badge.fury.io/js/nconf-base)
 [![Build Status](https://travis-ci.org/nconf-base/nconf-base.png?branch=master)](http://travis-ci.org/nconf-base/nconf-base)
 [![Dependency Status](https://gemnasium.com/nconf-base/nconf-base.png)](https://gemnasium.com/nconf-base/nconf-base)
-[![NPM version](https://badge.fury.io/js/nconf-base.png)](http://badge.fury.io/js/nconf-base)
 [![Code Climate](https://codeclimate.com/github/RiotGames/berkshelf.png)](https://codeclimate.com/github/nconf-base/nconf-base)
 [![Coverage Status](https://coveralls.io/repos/nconf-base/nconf-base/badge.png?branch=master)](https://coveralls.io/r/nconf-base/nconf-base)
 
