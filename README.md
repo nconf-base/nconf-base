@@ -14,6 +14,7 @@ Configuration information is pulled from the following locations in the followin
   - port: (isLocal) ? 3000 : 80
   - https_port: (isLocal) ? 3443 : 443
   - powered_by: nconf.get('name') + '/' + nconf.get('version')
+  - winston console logs for: access, application, email and slow events
 
 ## Installation
 
