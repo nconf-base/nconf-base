@@ -1,0 +1,25 @@
+{
+    "name": "nconf-base",
+    "description": "A basic nconf chain",
+    "version": "0.1.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/flexbean/nconf-base.git"
+    },
+    "dependencies" :{
+        "nconf" : "0.6"
+    },
+    "keywords": [
+        "nconf",
+        "configuration",
+        "config boilerplate"
+    ],
+    "author": "flexbean",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "gitHead": "2e9ac4d118c36c1f05ca88b97c8a026563d9a741"
+}
