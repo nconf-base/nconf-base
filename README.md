@@ -4,6 +4,7 @@ nconf-base
 [![Dependency Status](https://gemnasium.com/nconf-base/nconf-base.png)](https://gemnasium.com/nconf-base/nconf-base)
 [![NPM version](https://badge.fury.io/js/nconf-base.png)](http://badge.fury.io/js/nconf-base)
 [![Code Climate](https://codeclimate.com/github/RiotGames/berkshelf.png)](https://codeclimate.com/github/nconf-base/nconf-base)
+[![Coverage Status](https://coveralls.io/repos/nconf-base/nconf-base/badge.png?branch=master)](https://coveralls.io/r/nconf-base/nconf-base)
 
 A basic  [nconf][0]  chain to assist in boilerplate application configuration
 and encourage keeping security sensitive information out of source code and VCS
