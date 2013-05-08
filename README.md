@@ -1,11 +1,19 @@
-nconf-base
+nconf-base 
 ==========
+[![Build Status](https://travis-ci.org/nconf-base/nconf-base.png?branch=master)](http://travis-ci.org/nconf-base/nconf-base) [![Dependency Status](https://gemnasium.com/nconf-base/nconf-base.png)](https://gemnasium.com/nconf-base/nconf-base) [![NPM version](https://badge.fury.io/js/nconf-base.png)](http://badge.fury.io/js/nconf-base)
 
 A basic  [nconf][0]  chain to assist in boilerplate application configuration
 and encourage keeping security sensitive information out of source code and VCS
 repos.
-[![Build Status](https://travis-ci.org/nconf-base/nconf-base.png?branch=master)](http://travis-ci.org/nconf-base/nconf-base) [![Dependency Status](https://gemnasium.com/nconf-base/nconf-base.png)](https://gemnasium.com/nconf-base/nconf-base) [![NPM version](https://badge.fury.io/js/nconf-base.png)](http://badge.fury.io/js/nconf-base)
 
+Configuration information is pulled from the following locations in the following order. Duplicate values are ignored if they are encountered further down the list:
+- environment variables
+- command line arguments (if not production)
+- package.json file
+- defaults as follows:
+  - port: (isLocal) ? 3000 : 80
+  - https_port: (isLocal) ? 3443 : 443
+  - powered_by: nconf.get('name') + '/' + nconf.get('version')
 
 ## Installation
 
