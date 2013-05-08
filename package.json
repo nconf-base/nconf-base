@@ -2,7 +2,7 @@
     "name": "nconf-base",
     "description": "A basic nconf chain",
     "version": "0.1.0",
-    "main": "index.js",
+    "main": "lib/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
