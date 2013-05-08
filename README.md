@@ -29,7 +29,7 @@ $ npm install nconf-base
 
 And use nconf as you would regularly.
 
-## Example with winston logger via [winston-config][1]
+## Example with [winston][2] logger via [winston-config][1]
 ``` js
   var nconf = require('nconf-base'),
       wconf = require('winston-config').fromJson(nconf.get('winston-config')),
@@ -68,3 +68,4 @@ THE SOFTWARE.
 
 [0]: https://github.com/flatiron/nconf
 [1]: https://github.com/triplem/winston-config
+[2]: https://github.com/flatiron/winston
