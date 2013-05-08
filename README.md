@@ -19,7 +19,7 @@ Configuration information is pulled from the following locations in the followin
 ## Installation
 
 ``` sh
-  $ npm install nconf-base
+$ npm install nconf-base
 ```
 
 ## Usage
@@ -36,6 +36,10 @@ And use nconf as you would regularly.
       logger = wconf.logger.application;
 
   logger.info('it works :-)'); // console output: it works :-)
+```
+## Testing
+``` sh
+$ npm test
 ```
 
 ## License
