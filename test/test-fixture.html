@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Mocha DOM test</title>
+  <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script>
+    mocha.setup( "bdd" )
+  </script>
+  <script src="../node_modules/chai/chai.js"></script>
+  <script>
+    var expect = chai.expect;
+
+    describe("Chai", function() {
+      it("should make you happy", function(){
+        expect("everything").to.be.ok;
+      });
+    });
+  </script>
+  <script>
+    if (window.mochaPhantomJS) { mochaPhantomJS.run(); } 
+    else { mocha.run(); }
+  </script>
+</body>
+</html>
