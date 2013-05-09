@@ -1,25 +1,41 @@
 {
-    "name": "nconf-base",
-    "description": "A basic nconf chain",
-    "version": "0.1.0",
-    "main": "lib/index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/flexbean/nconf-base.git"
-    },
-    "dependencies" :{
-        "nconf" : "0.6"
-    },
-    "keywords": [
-        "nconf",
-        "configuration",
-        "config boilerplate"
-    ],
-    "author": "flexbean",
-    "license": "MIT",
-    "readmeFilename": "README.md",
-    "gitHead": "2e9ac4d118c36c1f05ca88b97c8a026563d9a741"
+  "name": "nconf-base",
+  "description": "A basic nconf chain",
+  "version": "0.1.2",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flexbean/nconf-base.git"
+  },
+  "dependencies": {
+    "nconf": ">=0.6"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "phantomjs": ">=1.9",
+    "mocha": ">=1.9",
+    "mocha-phantomjs": ">=2.0.1",
+    "chai": ">=1.6",
+    "grunt-cli": ">=0.1.8",
+    "grunt": ">=0.4.1",
+    "grunt-simple-mocha": ">=0.4.0",
+    "grunt-mocha": ">=0.3.1",
+    "grunt-release": ">=0.3.3"
+  },
+  "engines": {
+    "npm": ">=1.2",
+    "node": ">=0.8"
+  },
+  "keywords": [
+    "nconf",
+    "configuration",
+    "config boilerplate"
+  ],
+  "author": "flexbean",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "2e9ac4d118c36c1f05ca88b97c8a026563d9a741"
 }
