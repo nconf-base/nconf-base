@@ -35,4 +35,5 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-release');
 
   grunt.registerTask('test', ['simplemocha', 'mocha_phantomjs']);
+  grunt.registerTask('push', ['simplemocha', 'mocha_phantomjs', 'release']);
 };
