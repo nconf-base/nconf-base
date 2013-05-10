@@ -20,7 +20,7 @@ Configuration information is pulled from the following locations in the followin
   - powered_by: nconf.get('name') + '/' + nconf.get('version')
   - winston console logs for: access, application, email and slow events
 
-Straight forward code that you can [read here](lib/nconf-base.js) < 70 lines including comments.
+Straight forward code that you can [read here](lib/nconf-base.js) (< 70 lines including comments).
 
 ## Installation
 
