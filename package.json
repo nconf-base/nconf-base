@@ -19,6 +19,7 @@
     "mocha": ">=1.9",
     "mocha-phantomjs": ">=2.0.1",
     "chai": ">=1.6",
+    "coveralls": ">=2.0.7",
     "grunt-cli": ">=0.1.8",
     "grunt": ">=0.4.1",
     "grunt-simple-mocha": ">=0.4.0",
