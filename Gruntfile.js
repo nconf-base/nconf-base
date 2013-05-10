@@ -6,12 +6,12 @@ module.exports = function(grunt){
       options: {
          bump: true,
         // file: 'test-component.json',
-         add: false,
-         commit: false,
-         tag: false,
-         push: false,
-         pushTags: false,
-         npm: false,
+         add: true,
+         commit: true,
+         tag: true,
+         push: true,
+         pushTags: true,
+         npm: true,
       }
     },
     mocha_phantomjs: {
@@ -19,21 +19,25 @@ module.exports = function(grunt){
     },
     simplemocha: {
       options: {
-        globals: ['should'],
-        timeout: 3000,
-        ignoreLeaks: false,
-        grep: '*-test',
-        ui: 'bdd',
-        reporter: 'tap'
+//        globals: ['should'],
+//        timeout: 3000,
+//        ignoreLeaks: false,
+//        grep: '*-test',
+//        ui: 'bdd',
+//        reporter: 'tap'
       },
       all: { src: ['test/**/*.js'] }
-    }
+    },
+    pushit: {
+	},
+	test: {
+	},
   });
 
   grunt.loadNpmTasks('grunt-simple-mocha');
   grunt.loadNpmTasks('grunt-mocha-phantomjs');
   grunt.loadNpmTasks('grunt-release');
 
-  grunt.registerTask('test', ['simplemocha', 'mocha_phantomjs']);
-  grunt.registerTask('push', ['simplemocha', 'mocha_phantomjs', 'release']);
+  grunt.registerTask('test', ['simplemocha']);
+  grunt.registerTask('pushit', ['simplemocha', 'release']);
 };

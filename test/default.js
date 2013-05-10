@@ -1,10 +1,15 @@
-/**
- * Project:     nconf-base
- * File:
- * Description:
- * User:        av4me
- * Main Repo:   github.com/av4me/nconf-base
- * Date:        05/09/2013
- * License:     MIT
- */
-'use strict';
+process.env['stage'] = 'local';
+
+var expect = require("chai").expect,
+    nconf  = require('../lib/nconf-base.js');
+
+describe("Defaults", function(){
+
+    before(function(){ });
+    after(function(){ });
+
+    it("Expected local stage state values", function(){
+        expect(nconf.get('host')).to.equal('localhost');
+        expect(nconf.get('name')).to.equal('nconf-base');
+    });
+});

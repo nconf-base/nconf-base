@@ -10,12 +10,13 @@
     mocha.setup( "bdd" )
   </script>
   <script src="../node_modules/chai/chai.js"></script>
+  <script src="../lib/nconf-base.js"></script>
   <script>
     var expect = chai.expect;
 
-    describe("Chai", function() {
-      it("should make you happy", function(){
-        expect("everything").to.be.ok;
+    describe("Local config on PhantomJS.", function() {
+      it("Expected local stage state values", function(){
+          expect(nconf.get('host')).to.equal('localhost');
       });
     });
   </script>
