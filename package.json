@@ -1,8 +1,8 @@
 {
   "name": "nconf-base",
   "description": "A basic nconf chain",
-  "version": "0.1.9",
-  "main": "lib/index.js",
+  "version": "0.1.10",
+  "main": "lib/nconf-base.js",
   "scripts": {
     "test": "grunt test"
   },
