@@ -1,5 +1,5 @@
-nconf-base 
-==========
+# nconf-base <img align="right" src="images/nconf-base-64.png"><link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
 [![NPM version](https://badge.fury.io/js/nconf-base.png)](http://badge.fury.io/js/nconf-base)
 [![Build Status](https://travis-ci.org/nconf-base/nconf-base.png?branch=master)](http://travis-ci.org/nconf-base/nconf-base)
 [![Dependency Status](https://gemnasium.com/nconf-base/nconf-base.png)](https://gemnasium.com/nconf-base/nconf-base)
