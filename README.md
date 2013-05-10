@@ -1,12 +1,11 @@
 # nconf-base <img align="right" src="images/nconf-base-64.png"><link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
-[![NPM version](https://badge.fury.io/js/nconf-base.png)](http://badge.fury.io/js/nconf-base)
-[![Build Status](https://travis-ci.org/nconf-base/nconf-base.png?branch=master)](http://travis-ci.org/nconf-base/nconf-base)
-[![Dependency Status](https://gemnasium.com/nconf-base/nconf-base.png)](https://gemnasium.com/nconf-base/nconf-base)
-[![Code Climate](https://codeclimate.com/github/RiotGames/berkshelf.png)](https://codeclimate.com/github/nconf-base/nconf-base)
-[![Coverage Status](https://coveralls.io/repos/nconf-base/nconf-base/badge.png?branch=master)](https://coveralls.io/r/nconf-base/nconf-base)
-
-[![browser support](http://ci.testling.com/USER/PROJECT.png)](http://ci.testling.com/nconf-base/nconf-base)
+[![browser support](http://ci.testling.com/nconf-base/nconf-base.png)](http://ci.testling.com/nconf-base/nconf-base)
+&nbsp;<a href="http://badge.fury.io/js/nconf-base"><img valign="top" src="https://badge.fury.io/js/nconf-base.png"></a>
+&nbsp;<a href="http://travis-ci.org/nconf-base/nconf-base"><img valign="top" src="https://travis-ci.org/nconf-base/nconf-base.png?branch=master"></a>
+&nbsp;<a href="https://gemnasium.com/nconf-base/nconf-base"><img valign="top" src="https://gemnasium.com/nconf-base/nconf-base.png"></a>
+&nbsp;<a href="https://codeclimate.com/github/nconf-base/nconf-base"><img valign="top" src="https://codeclimate.com/github/nconf-base/nconf-base.png"></a>
+&nbsp;<a href="https://coveralls.io/r/nconf-base/nconf-base"><img valign="top" src="https://coveralls.io/repos/nconf-base/nconf-base/badge.png?branch=master"></a>
 
 A basic  [nconf][0]  chain to assist in boilerplate application configuration
 and encourage keeping security sensitive information out of source code and VCS
