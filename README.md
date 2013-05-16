@@ -1,7 +1,6 @@
 # nconf-base <img align="right" src="images/nconf-base-64.png"><link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
-[![browser support](http://ci.testling.com/nconf-base/nconf-base.png)](http://ci.testling.com/nconf-base/nconf-base)
-&nbsp;<a href="http://badge.fury.io/js/nconf-base"><img valign="top" src="https://badge.fury.io/js/nconf-base.png"></a>
+<a href="http://ci.testling.com/nconf-base/nconf-base"><img width="0" height="0" src="http://ci.testling.com/nconf-base/nconf-base.png)"></a><a href="http://badge.fury.io/js/nconf-base"><img valign="top" src="https://badge.fury.io/js/nconf-base.png"></a>
 &nbsp;<a href="http://travis-ci.org/nconf-base/nconf-base"><img valign="top" src="https://travis-ci.org/nconf-base/nconf-base.png?branch=master"></a>
 &nbsp;<a href="https://gemnasium.com/nconf-base/nconf-base"><img valign="top" src="https://gemnasium.com/nconf-base/nconf-base.png"></a>
 &nbsp;<a href="https://codeclimate.com/github/nconf-base/nconf-base"><img valign="top" src="https://codeclimate.com/github/nconf-base/nconf-base.png"></a>
@@ -53,7 +52,7 @@ $ npm test
 
 # The MIT License (MIT)
 
-Copyright (c) 2013 Jim Kalac
+Copyright (c) 2013 nconf-base
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
