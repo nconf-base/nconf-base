@@ -1,7 +1,7 @@
 {
   "name": "nconf-base",
   "description": "A basic nconf chain",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "lib/nconf-base.js",
   "scripts": {
     "test": "grunt test"
@@ -127,7 +127,7 @@
     "configuration",
     "config boilerplate"
   ],
-  "author": "flexbean",
+  "author": "nconf-base",
   "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "2e9ac4d118c36c1f05ca88b97c8a026563d9a741"
