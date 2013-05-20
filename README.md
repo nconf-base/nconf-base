@@ -1,4 +1,4 @@
-# nconf-base <img align="right" src="images/nconf-base-64.png"><link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+# nconf-base <img align="right" src="https://raw.github.com/nconf-base/nconf-base/master/images/nconf-base-64.png"><link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
 <a href="http://ci.testling.com/nconf-base/nconf-base"><img width="0" height="0" src="http://ci.testling.com/nconf-base/nconf-base.png)"></a><a href="http://badge.fury.io/js/nconf-base"><img valign="top" src="https://badge.fury.io/js/nconf-base.png"></a>
 &nbsp;<a href="http://travis-ci.org/nconf-base/nconf-base"><img valign="top" src="https://travis-ci.org/nconf-base/nconf-base.png?branch=master"></a>

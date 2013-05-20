@@ -127,7 +127,16 @@
     "configuration",
     "config boilerplate"
   ],
-  "author": "nconf-base",
+  "author": {
+    "name": "nconf-base",
+    "email": "nconf-base@"
+  },
+  "contributors": [
+    {
+      "name": "nconf-base",
+      "email": "nconf-base@"
+    }
+  ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "2e9ac4d118c36c1f05ca88b97c8a026563d9a741"
