@@ -11,7 +11,7 @@ module.exports = function(grunt){
          tag: true,
          push: true,
          pushTags: true,
-         npm: true,
+         npm: false,
       }
     },
     mocha_phantomjs: {
