@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/flexbean/nconf-base.git"
+    "url": "git://github.com/nconf-base/nconf-base.git"
   },
   "dependencies": {
     "nconf": ">=0.6"
