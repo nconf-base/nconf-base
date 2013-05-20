@@ -1,0 +1,181 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.17
+3 info using node@v0.10.3
+4 verbose publish [ '.' ]
+5 verbose read json /Users/jimkalac/PhpstormProjects/nconf-base/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/jimkalac/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/tmp.tgz
+14 verbose folder .
+15 info prepublish nconf-base@0.3.4
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/jimkalac/.npm/3a52ce78-.lock
+18 silly lockFile 372efb27-05193-0-5844061905518174-tmp-tgz /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/tmp.tgz
+19 verbose lock /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/tmp.tgz /Users/jimkalac/.npm/372efb27-05193-0-5844061905518174-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 372efb27-05193-0-5844061905518174-tmp-tgz /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/tmp.tgz
+23 silly lockFile 372efb27-05193-0-5844061905518174-tmp-tgz /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/tmp.tgz
+24 verbose tar unpack /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/tmp.tgz
+25 silly lockFile 87b8cdc3-05193-0-5844061905518174-package /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package
+26 verbose lock /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package /Users/jimkalac/.npm/87b8cdc3-05193-0-5844061905518174-package.lock
+27 silly lockFile 372efb27-05193-0-5844061905518174-tmp-tgz /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/tmp.tgz
+28 verbose lock /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/tmp.tgz /Users/jimkalac/.npm/372efb27-05193-0-5844061905518174-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm extractEntry Gruntfile.js
+34 silly gunzTarPerm extractEntry .travis.yml
+35 silly gunzTarPerm extractEntry images/favicon.ico
+36 silly gunzTarPerm extractEntry images/favicon.png
+37 silly gunzTarPerm extractEntry images/nconf-base-64.png
+38 silly gunzTarPerm extractEntry images/nconf-base-88.png
+39 silly gunzTarPerm extractEntry images/nconf-base.jpg
+40 silly gunzTarPerm extractEntry images/nconf-base.png
+41 silly gunzTarPerm extractEntry images/nconf-base.psd
+42 silly gunzTarPerm extractEntry lib/nconf-base.js
+43 silly gunzTarPerm extractEntry test/default.js
+44 silly gunzTarPerm extractEntry test/test-fixture.html
+45 verbose read json /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package/package.json
+46 silly lockFile 87b8cdc3-05193-0-5844061905518174-package /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package
+47 silly lockFile 87b8cdc3-05193-0-5844061905518174-package /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package
+48 silly lockFile 372efb27-05193-0-5844061905518174-tmp-tgz /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/tmp.tgz
+49 silly lockFile 372efb27-05193-0-5844061905518174-tmp-tgz /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/tmp.tgz
+50 verbose from cache /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package/package.json
+51 verbose tar pack [ '/Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz',
+51 verbose tar pack   '/var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package' ]
+52 verbose tarball /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz
+53 verbose folder /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package
+54 silly lockFile 87b8cdc3-05193-0-5844061905518174-package /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package
+55 verbose lock /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package /Users/jimkalac/.npm/87b8cdc3-05193-0-5844061905518174-package.lock
+56 silly lockFile 6b2b19a3-npm-nconf-base-0-3-4-package-tgz /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz
+57 verbose lock /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz /Users/jimkalac/.npm/6b2b19a3-npm-nconf-base-0-3-4-package-tgz.lock
+58 silly lockFile 87b8cdc3-05193-0-5844061905518174-package /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package
+59 silly lockFile 87b8cdc3-05193-0-5844061905518174-package /var/folders/lk/0y2d8gk564737fscfnkpyg340000gn/T/npm-47597/1369087505193-0.5844061905518174/package
+60 silly lockFile 6b2b19a3-npm-nconf-base-0-3-4-package-tgz /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz
+61 silly lockFile 6b2b19a3-npm-nconf-base-0-3-4-package-tgz /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz
+62 silly lockFile 34ae5ae0-lac-npm-nconf-base-0-3-4-package /Users/jimkalac/.npm/nconf-base/0.3.4/package
+63 verbose lock /Users/jimkalac/.npm/nconf-base/0.3.4/package /Users/jimkalac/.npm/34ae5ae0-lac-npm-nconf-base-0-3-4-package.lock
+64 silly lockFile 34ae5ae0-lac-npm-nconf-base-0-3-4-package /Users/jimkalac/.npm/nconf-base/0.3.4/package
+65 silly lockFile 34ae5ae0-lac-npm-nconf-base-0-3-4-package /Users/jimkalac/.npm/nconf-base/0.3.4/package
+66 verbose tar unpack /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz
+67 silly lockFile 34ae5ae0-lac-npm-nconf-base-0-3-4-package /Users/jimkalac/.npm/nconf-base/0.3.4/package
+68 verbose lock /Users/jimkalac/.npm/nconf-base/0.3.4/package /Users/jimkalac/.npm/34ae5ae0-lac-npm-nconf-base-0-3-4-package.lock
+69 silly lockFile 6b2b19a3-npm-nconf-base-0-3-4-package-tgz /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz
+70 verbose lock /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz /Users/jimkalac/.npm/6b2b19a3-npm-nconf-base-0-3-4-package-tgz.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry .npmignore
+74 silly gunzTarPerm extractEntry README.md
+75 silly gunzTarPerm extractEntry Gruntfile.js
+76 silly gunzTarPerm extractEntry .travis.yml
+77 silly gunzTarPerm extractEntry images/favicon.ico
+78 silly gunzTarPerm extractEntry images/favicon.png
+79 silly gunzTarPerm extractEntry images/nconf-base-64.png
+80 silly gunzTarPerm extractEntry images/nconf-base-88.png
+81 silly gunzTarPerm extractEntry images/nconf-base.jpg
+82 silly gunzTarPerm extractEntry images/nconf-base.png
+83 silly gunzTarPerm extractEntry images/nconf-base.psd
+84 silly gunzTarPerm extractEntry lib/nconf-base.js
+85 silly gunzTarPerm extractEntry test/default.js
+86 silly gunzTarPerm extractEntry test/test-fixture.html
+87 verbose read json /Users/jimkalac/.npm/nconf-base/0.3.4/package/package.json
+88 silly lockFile 34ae5ae0-lac-npm-nconf-base-0-3-4-package /Users/jimkalac/.npm/nconf-base/0.3.4/package
+89 silly lockFile 34ae5ae0-lac-npm-nconf-base-0-3-4-package /Users/jimkalac/.npm/nconf-base/0.3.4/package
+90 silly lockFile 6b2b19a3-npm-nconf-base-0-3-4-package-tgz /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz
+91 silly lockFile 6b2b19a3-npm-nconf-base-0-3-4-package-tgz /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz
+92 silly shasum updated bytes 47900
+93 info shasum 0ef2fd7e87ae2fde1fc8cd066f388c7a3180daae
+93 info shasum /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz
+94 verbose from cache /Users/jimkalac/.npm/nconf-base/0.3.4/package/package.json
+95 verbose chmod /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz 644
+96 verbose chown /Users/jimkalac/.npm/nconf-base/0.3.4/package.tgz [ 501, 20 ]
+97 silly lockFile 3a52ce78- .
+98 silly publish { name: 'nconf-base',
+98 silly publish   description: 'A basic nconf chain',
+98 silly publish   version: '0.3.4',
+98 silly publish   main: 'lib/nconf-base.js',
+98 silly publish   scripts: { test: 'grunt test' },
+98 silly publish   repository: { type: 'git', url: 'git://github.com/flexbean/nconf-base.git' },
+98 silly publish   dependencies: { nconf: '>=0.6' },
+98 silly publish   optionalDependencies: {},
+98 silly publish   devDependencies:
+98 silly publish    { phantomjs: '>=1.9',
+98 silly publish      mocha: '>=1.9',
+98 silly publish      'mocha-phantomjs': '>=2.0.1',
+98 silly publish      chai: '>=1.6',
+98 silly publish      coveralls: '>=2.0.7',
+98 silly publish      'grunt-cli': '>=0.1.8',
+98 silly publish      grunt: '>=0.4.1',
+98 silly publish      'grunt-simple-mocha': '>=0.4.0',
+98 silly publish      'grunt-mocha-phantomjs': '>=0.2.7',
+98 silly publish      'grunt-release': '>=0.3.3' },
+98 silly publish   engines: { npm: '>=1.2', node: '>=0.8' },
+98 silly publish   testling:
+98 silly publish    { browsers: [ [Object], [Object], [Object], [Object], [Object] ],
+98 silly publish      harness: 'mocha',
+98 silly publish      files: 'test/*.js' },
+98 silly publish   keywords: [ 'nconf', 'configuration', 'config boilerplate' ],
+98 silly publish   author: { name: 'nconf-base', email: 'nconf-base@' },
+98 silly publish   contributors: [ { name: 'nconf-base', email: 'nconf-base@' } ],
+98 silly publish   license: 'MIT',
+98 silly publish   readmeFilename: 'README.md',
+98 silly publish   gitHead: '2e9ac4d118c36c1f05ca88b97c8a026563d9a741',
+98 silly publish   readme: '# nconf-base <img align="right" src="https://raw.github.com/nconf-base/nconf-base/master/images/nconf-base-64.png"><link rel="icon" href="images/favicon.ico" type="image/x-icon" />\n\n<a href="http://ci.testling.com/nconf-base/nconf-base"><img width="0" height="0" src="http://ci.testling.com/nconf-base/nconf-base.png)"></a><a href="http://badge.fury.io/js/nconf-base"><img valign="top" src="https://badge.fury.io/js/nconf-base.png"></a>\n&nbsp;<a href="http://travis-ci.org/nconf-base/nconf-base"><img valign="top" src="https://travis-ci.org/nconf-base/nconf-base.png?branch=master"></a>\n&nbsp;<a href="https://gemnasium.com/nconf-base/nconf-base"><img valign="top" src="https://gemnasium.com/nconf-base/nconf-base.png"></a>\n&nbsp;<a href="https://codeclimate.com/github/nconf-base/nconf-base"><img width="0" height="0" valign="top" src="https://codeclimate.com/github/nconf-base/nconf-base.png"></a>\n&nbsp;<a href="https://coveralls.io/r/nconf-base/nconf-base"><img width="0" height="0" valign="top" src="https://coveralls.io/repos/nconf-base/nconf-base/badge.png?branch=master"></a>\n\nA basic  [nconf][0]  chain to assist in boilerplate application configuration\nand encourage keeping security sensitive information out of source code and VCS\nrepos.\n\nConfiguration information is pulled from the following locations in the following order. Duplicate values are ignored if they are encountered further down the list:\n- environment variables\n- command line arguments (if not production)\n- package.json file\n- defaults as follows:\n  - port: (isLocal) ? 3000 : 80\n  - https_port: (isLocal) ? 3443 : 443\n  - powered_by: nconf.get(\'name\') + \'/\' + nconf.get(\'version\')\n  - winston console logs for: access, application, email and slow events\n\nStraight forward code that you can [read here](https://github.com/nconf-base/nconf-base/blob/master/lib/nconf-base.js) (< 70 lines including comments).\n\n## Installation\n\n``` sh\n$ npm install nconf-base\n```\n\n## Usage\n``` js\n  var nconf = require(\'nconf-base\'); // get configuration\n```\n\nAnd use nconf as you would regularly.\n\n## Example with [winston][2] logger via [winston-config][1]\n``` js\n  var nconf = require(\'nconf-base\'),\n      wconf = require(\'winston-config\').fromJson(nconf.get(\'winston-config\')),\n      logger = wconf.logger.application;\n\n  logger.info(\'it works :-)\'); // console output: it works :-)\n```\n## Testing\n``` sh\n$ npm test\n```\n\n## License\n\n# The MIT License (MIT)\n\nCopyright (c) 2013 nconf-base\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n\n[0]: https://github.com/flatiron/nconf\n[1]: https://github.com/triplem/winston-config\n[2]: https://github.com/flatiron/winston\n',
+98 silly publish   _id: 'nconf-base@0.3.4',
+98 silly publish   dist: { shasum: '0ef2fd7e87ae2fde1fc8cd066f388c7a3180daae' },
+98 silly publish   _from: '.' }
+99 verbose url raw nconf-base
+100 verbose url resolving [ 'https://registry.npmjs.org/', './nconf-base' ]
+101 verbose url resolved https://registry.npmjs.org/nconf-base
+102 info trying registry request attempt 1 at 16:05:16
+103 http PUT https://registry.npmjs.org/nconf-base
+104 http 409 https://registry.npmjs.org/nconf-base
+105 verbose url raw nconf-base
+106 verbose url resolving [ 'https://registry.npmjs.org/', './nconf-base' ]
+107 verbose url resolved https://registry.npmjs.org/nconf-base
+108 info trying registry request attempt 1 at 16:05:17
+109 http GET https://registry.npmjs.org/nconf-base
+110 http 401 https://registry.npmjs.org/nconf-base
+111 info trying registry request attempt 1 at 16:05:17
+112 http GET https://registry.npmjs.org/nconf-base
+113 http 401 https://registry.npmjs.org/nconf-base
+114 error Error: unauthorized Name or password is incorrect.: nconf-base
+114 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:268:14)
+114 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/main.js:120:22)
+114 error     at Request.EventEmitter.emit (events.js:98:17)
+114 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:649:16)
+114 error     at Request.EventEmitter.emit (events.js:117:20)
+114 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:611:14)
+114 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+114 error     at _stream_readable.js:883:14
+114 error     at process._tickCallback (node.js:415:13)
+115 error If you need help, you may report this log at:
+115 error     <http://github.com/isaacs/npm/issues>
+115 error or email it to:
+115 error     <npm-@googlegroups.com>
+116 error System Darwin 11.4.2
+117 error command "node" "/usr/local/bin/npm" "publish"
+118 error cwd /Users/jimkalac/PhpstormProjects/nconf-base
+119 error node -v v0.10.3
+120 error npm -v 1.2.17
+121 verbose exit [ 1, true ]

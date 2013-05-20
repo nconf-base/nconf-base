@@ -129,12 +129,18 @@
   ],
   "author": {
     "name": "nconf-base",
-    "email": "nconf-base@"
+    "email": "nconf-base@cormea.com"
   },
+  "maintainers": [
+    {
+      "name": "nconf-base",
+      "email": "nconf-base@cormea.com"
+    }
+  ],
   "contributors": [
     {
       "name": "nconf-base",
-      "email": "nconf-base@"
+      "email": "nconf-base@cormea.com"
     }
   ],
   "license": "MIT",
