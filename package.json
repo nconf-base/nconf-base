@@ -1,14 +1,14 @@
 {
   "name": "nconf-base",
   "description": "A basic nconf chain",
-  "version": "0.3.11",
+  "version": "0.3.12",
   "main": "lib/nconf-base.js",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/flexbean/nconf-base.git"
+    "url": "git://github.com/nconf-base/nconf-base.git"
   },
   "dependencies": {
     "nconf": ">=0.6"
@@ -128,7 +128,7 @@
     "config boilerplate"
   ],
   "author": "nconf-base",
-  "maintainers": "flexbean <flexbean@gmail.com>",
+  "maintainers": "nconf-base <nconf-base@cormea.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "2e9ac4d118c36c1f05ca88b97c8a026563d9a741"
