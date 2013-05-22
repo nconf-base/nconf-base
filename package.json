@@ -1,7 +1,7 @@
 {
   "name": "nconf-base",
   "description": "A basic nconf chain",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "main": "lib/nconf-base.js",
   "scripts": {
     "test": "grunt test"
@@ -128,10 +128,14 @@
     "config boilerplate"
   ],
   "author": {
-    "name": "nconf-base",
-    "email": "nconf-base@cormea.com"
+    "name": "flexbean",
+    "email": "flexbean@gmail.com"
   },
   "maintainers": [
+    {
+      "name": "flexbean",
+      "email": "flexbean@gmail.com"
+    },
     {
       "name": "nconf-base",
       "email": "nconf-base@cormea.com"
